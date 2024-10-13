@@ -1,0 +1,7 @@
+<p>Insert Document</p>
+<input type="file" (change)="onFileChange($event)" />
+<button (click)="upload()">Upload</button>
+@if (message) {
+    <p>{{message}}</p>
+}
+<!-- <p *ngIf="message">{{ message }}</p> -->
